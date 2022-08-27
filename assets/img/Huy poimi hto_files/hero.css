@@ -1,0 +1,51 @@
+/*hero*/
+
+.hero-contanier {
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.hero {
+  height: 55vh;
+  width: 100wh;
+  border-radius: 20px;
+  background: linear-gradient(135deg, #2ea5f2 0%, #6ed2ff 100%);
+}
+
+.hero-info-contanier {
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
+.info-block-hero {
+  padding-top: 6%;
+  color: #fff;
+}
+
+.h1-content {
+  width: 35%;
+  font-weight: 800;
+  color: #fff;
+  font-size: 52px;
+  line-height: 65px;
+}
+
+.p-content {
+  width: 50%;
+  font-size: 24px;
+  line-height: 42px;
+  margin-top: 25px;
+  padding-right: 15%;
+}
+
+.hero-buttons-contanier {
+  display: flex;
+  width: 30%;
+  line-height: 3;
+}
+
+.hero-buttons-contanier a {
+  margin-top: 20px;
+}
+
+/*hero*/
