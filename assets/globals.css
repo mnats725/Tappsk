@@ -12,7 +12,7 @@ body {
   width: 100%;
   overflow: auto;
 
-  /* Модификация скролла для Mozilla */
+  /* пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅ Mozilla */
   scrollbar-color: rgba(0, 0, 0, 0.2) transparent;
   scrollbar-width: 8px;
 }
@@ -109,7 +109,7 @@ article > * + * {
   margin-top: 1em;
 }
 
-/* Модифицируем скролл */
+/* пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ */
 ::-webkit-scrollbar {
   width: 8px;
   height: 8px;
@@ -140,7 +140,40 @@ article > * + * {
   scroll-behavior: smooth;
 }
 
-/* Удаляем все анимации и переходы для людей, которые предпочитай их не использовать */
+/*hero*/
+
+.hero-contanier {
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.hero {
+  height: 50vh;
+  width: 100wh;
+  border-radius: 20px;
+  background: linear-gradient(135deg, #2ea5f2 0%, #6ed2ff 100%);
+}
+
+.hero-info-contanier {
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
+.info-block-hero {
+  width: 30%;
+  padding-top: 6%;
+  color: #fff;
+}
+
+.info-block-hero h1 {
+  font-size: 50px;
+  font-weight: 300;
+  line-height: 1.2;
+}
+
+/*hero*/
+
+/* пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ, пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅ пїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ */
 @media (prefers-reduced-motion: reduce) {
   * {
     animation-duration: 0.01ms !important;
