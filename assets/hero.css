@@ -1,37 +1,25 @@
-/*hero*/
-
-.hero-contanier {
-  margin-left: 50px;
-  margin-right: 50px;
-}
-
 .hero {
-  width: 100wh;
+  display: flex;
+  height: 100%;
+  margin: auto 50px;
   border-radius: 20px;
   background: linear-gradient(135deg, #2ea5f2 0%, #6ed2ff 100%);
-  padding-bottom: 5%;
-}
-
-.hero-info-contanier {
-  margin-left: 15%;
-  margin-right: 15%;
+  max-height: 500px;
 }
 
 .info-block-hero {
-  padding-top: 6%;
+  padding: 6% 0 5% 15%;
   color: #fff;
 }
 
-.h1-content {
-  width: 35%;
+.info-block-hero h1 {
   font-weight: 800;
   color: #fff;
   font-size: 52px;
   line-height: 65px;
 }
 
-.p-content {
-  width: 51%;
+.info-block-hero p {
   font-size: 24px;
   line-height: 42px;
   margin-top: 25px;
@@ -39,38 +27,22 @@
 }
 
 .hero-buttons-contanier {
+  max-width: 600px;
+  width: 100%;
   margin-top: 30px;
   display: flex;
-  width: 40%;
 }
 
-.app-store-button {
+.app-store-image {
   border-radius: 5px;
   width: 170px;
-}
-
-.watch-hero {
-  cursor: pointer;
-  margin-left: 3%;
-}
-
-.hero-items-contanier {
-  display: flex;
-}
-
-.hero-text {
-  margin-left: 14px;
-}
-
-.hero-play {
-  margin-top: 6px;
 }
 
 .watch-hero-button {
   display: flex;
   font-size: 17px;
   display: inline-block;
-  color: white;
+  color: #ffffff;
   font-weight: 600;
   padding: 10px 10px;
   border: 2px solid white;
@@ -81,5 +53,3 @@
   background-color: #6ac3ff;
   transition: ease 0.4s;
 }
-
-/*hero*/
