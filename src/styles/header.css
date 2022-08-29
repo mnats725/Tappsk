@@ -5,7 +5,7 @@ header {
   padding: 50px 140px;
 }
 
-nav {
+header nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -18,16 +18,16 @@ nav {
   font-weight: 600;
 }
 
-nav a {
+header nav a {
   color: #868a9a;
   transition: ease 0.4s;
 }
 
-nav a:hover {
+header nav a:hover {
   color: #000000;
 }
 
-nav button {
+header nav button {
   color: #32a8f3;
   border-radius: 20px;
   background-color: rgba(50, 168, 243, 0.1);
@@ -35,7 +35,7 @@ nav button {
   transition: ease 0.4s;
 }
 
-nav button:hover {
+header nav button:hover {
   color: #000000;
 }
 
